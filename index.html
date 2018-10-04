@@ -1,25 +1,56 @@
 <!DOCTYPE html>
 <html>
 <style>
+  #navbar {
+    position:fixed;
+    top:0px;
+    left:0px;    
+    width: 100%;
+    background-color: #2abba3;
+  }
+}
+  nav ul {
+    margin: 0px;
+    padding: 10px 0px 5px 30px;
+  }
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
   a{color:rgb(0,121,107);}
   a:hover{color:orange;}
-  h1{color:orange;text-align: center;}
+  h1{color:orange;text-align:center;position:absolute; top:21px;}
   body {
     background-color:rgb(241,248,233);
     font-family: monospace;
     color: green;
     text-align: center;
   }
+  p{position:absolute; top:39%}
   </style>
   <head>
       <title>Natalia Valle - Personal Web Page</title>
 
   </head>
 <body>
-    <h1> Welcome 
-    <img src="IMG_20180317_213013.jpg" alt="myself"></h1>
+  <header>
+    <h1> Welcome </h1>
+        <nav id="navbar">
+            <ul>
+              <li><a href=# color:rgb(0,121,107)>Home</a></li>
+              <li><a href=#>Contact</a></li>
+            </ul>
+          </nav>
+    <img src="IMG_20180317_213013.jpg" alt="myself">
+    </header>
 <p> Visit my <a href="https://angel.co/natalia-valle-aguirre" target="_blank"> AngelList </a> </p>
 
-<footer style="background-color: #a4b74f; padding: 10px auto">&copy; Natalia Valle Aguirre, 2018.</footer>
+<footer 
+style="background-color: #a4b74f;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ position:fixed;
+  bottom:0px;
+  padding:10px;
+  width: 100%;">&copy; Natalia Valle Aguirre, 2018.</footer>
 </body>
 </html>
