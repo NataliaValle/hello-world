@@ -1,0 +1,8 @@
+RELATIVE POSITION z-index: 2 (to change the position among elements- higher values for the z-index property of an element move it higher in the stack than those with lower values.)
+
+
+COLOR
+hsl(120, 50%, 100%) h=hues (color) s=saturation (the amount of grey) L=light (the amound of black (100%) or white (0%)).useful if there is a color we like and want different shades
+linear-gradient(gradient_direction (eg 90deg)), color 1, color 2)
+ repeating-linear-gradient(90deg, yellow 0px, yellow 40px, black 40px, black 80px)  that creates vertical lines 
+

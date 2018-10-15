@@ -33,7 +33,11 @@ li a{
     }
 
   body {
-    background-color:rgb(241,248,233);
+    background: linear-gradient(
+      90deg,
+      rgb(0,121,107),
+      #ffcccf
+    );
     font-family: monospace;
     color: rgb(0,121,107);
     text-align: center;
@@ -43,9 +47,12 @@ li a{
 
   p{
     top:40%;
-    font-family: fantasy, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
-
+#subtitles{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 130%;
+}
   #home {
     display: flex;
     background-image: url(/Images/front\ pic.jpg);
@@ -58,18 +65,22 @@ li a{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 17px;
   }
+  #contact-title{
+  font-size: 150%;
+  }
   #contact li {
     display: block;
+    line-height: 3ch;
   }
   #contact li a{
     font-size: 17px;
   }
   footer{
-  background-color:  rgba(206, 243, 164, 0.397);
+  background-color:  rgba(78, 161, 152, 0.329);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   bottom:0px;
   left:0px;    
   width: 100%;
   padding:10px;
-  position: relative;
+  position: fixed;
 }
