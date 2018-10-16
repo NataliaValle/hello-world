@@ -1,3 +1,13 @@
+BASIC STRUCTURE
+    head: for meta information
+    body: for the content of the page
+    Header:for title - goes inside body
+    Main: for content - goues in body
+    Footer: for copy-right - in body
+    Nav: for the navigation panel - in body
+
+
+
 RELATIVE POSITION z-index: 2 (to change the position among elements- higher values for the z-index property of an element move it higher in the stack than those with lower values.)
 
 
