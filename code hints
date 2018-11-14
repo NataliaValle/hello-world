@@ -9,10 +9,22 @@ BASIC STRUCTURE
 
 
 RELATIVE POSITION z-index: 2 (to change the position among elements- higher values for the z-index property of an element move it higher in the stack than those with lower values.)
+    display:flex - it puts diferent divs at the same level
+    justify-content/items: for COLUMNS - center/space-between etc - To arrange the colmns
+    align-content/items: for ROWS (horizontal)
 
-
+**flexible layouts according to page size** grid-template-columns: repeat (auto-fill, minmax(60px, 1fr);
+        auto-fit: as the page size changes, it moves stuff around to organize it accordingly filling up the space
+        auto-fill: does the same but it squeezes every item to the side
+        minmax: it varies the size of the item according to the screen size (min, max)
+        repeat: for not to have to asign one by one the same size to each item
 COLOR
-hsl(120, 50%, 100%) h=hues (color) s=saturation (the amount of grey) L=light (the amound of black (100%) or white (0%)).useful if there is a color we like and want different shades
-linear-gradient(gradient_direction (eg 90deg)), color 1, color 2)
- repeating-linear-gradient(90deg, yellow 0px, yellow 40px, black 40px, black 80px)  that creates vertical lines 
+    hsl(120, 50%, 100%) h=hues (color) s=saturation (the amount of grey) L=light (the amound of black (100%) or white (0%)).useful if there is a color we like and want different shades
+    linear-gradient(gradient_direction (eg 90deg)), color 1, color 2)
+    repeating-linear-gradient(90deg, yellow 0px, yellow 40px, black 40px, black 80px)  that creates vertical lines 
 
+
+SHORTCUTS
+    ALT+SHIFT+F format the whole doc to make it pretty
+    CTRL+arrow to jump from word to word
+    ALT+click multiple writing
